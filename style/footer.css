@@ -1,0 +1,25 @@
+@import url(font.css);
+
+:root {
+    --RR: 'Rubik-Regular';
+    --RL: 'Rubik-Light';
+    --RS: 'Rubik-SemiBold';
+}
+.footer{
+    display: flex;
+    justify-content: space-between;   
+    height: 136px;
+    background: #181D28;
+    padding: 35px 35px;
+}
+.footer-nav__list{
+    display: flex;
+    align-items: center;
+}
+.footer-nav__link{
+    padding-left: 30px;
+    color: #FFF;
+    font-family:var(--RL);
+    font-size: 20px;
+    line-height: normal;
+}
